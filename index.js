@@ -232,6 +232,7 @@ function withdraw() {
 		.catch((err) => console.error(err));
 }
 
+//NOTE - helper function para remover valores da conta e atualizar valores no saldo
 function removeAmount(accountName, amount) {
 	const accountData = getAccount(accountName);
 
